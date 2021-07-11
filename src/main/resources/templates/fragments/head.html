@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.w3.org/1999/xhtml">
+
+<head th:fragment="headFragment">
+  <title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE"></title>
+  <meta charset="UTF-8" />
+
+  <!-- 공통적인 css -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+  <!-- 개별적인 css 시작-->
+  <th:block layout:fragment="custom-css"></th:block>
+  <!-- 개별적인 css 끝-->
+</head>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html 	lang="ko"
+         xmlns:th="http://www.thymeleaf.org"
+         xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<!-- [head] 영역 시작 -->
+<head th:replace="fragments/head :: headFragment">
+  <title layout:title-pattern="$LAYOUT_TITLE - $CONTENT_TITLE">dowajwo</title>
+</head>
+<!-- [head] 영역 끝 -->
+
+<body>
+
+<!-- [header] 영역 시작 -->
+<header th:replace="fragments/header :: headerFragment"></header>
+<!-- [header] 영역 끝 -->
+
+<!-- [content] 영역 시작 -->
+<div layout:fragment="content"></div>
+<!-- [content] 영역 끝 -->
+
+<!-- [footer] 영역 시작 -->
+<footer th:replace="fragments/footer :: footerFragment"></footer>
+<!-- [footer] 영역 끝 -->
+
+<!-- [공통 스크립트] 영역 시작 -->
+<th:block th:replace="fragments/script :: scriptFragment"></th:block>
+<!-- [공통 스크립트] 영역 끝 -->
+
+<!-- [개별 스크립트] 영역 시작 -->
+<th:block layout:fragment="custom-script"></th:block>
+<!-- [개별 스크립트] 영역 끝 -->
+</body>
+</html>
