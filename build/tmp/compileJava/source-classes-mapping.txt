@@ -1,4 +1,2 @@
-kr/dowajwo/springboot/web/HelloController.java
- kr.dowajwo.springboot.web.HelloController
 kr/dowajwo/springboot/Application.java
  kr.dowajwo.springboot.Application
