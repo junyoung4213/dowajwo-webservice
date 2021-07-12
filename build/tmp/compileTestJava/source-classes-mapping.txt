@@ -1,2 +1,10 @@
+kr/dowajwo/springboot/domain/posts/PostsRepositoryTest.java
+ kr.dowajwo.springboot.domain.posts.PostsRepositoryTest
+kr/dowajwo/springboot/web/PostApiControllerTest.java
+ kr.dowajwo.springboot.web.PostApiControllerTest
+kr/dowajwo/springboot/web/dto/HelloResponseDtoTest.java
+ kr.dowajwo.springboot.web.dto.HelloResponseDtoTest
 kr/dowajwo/springboot/web/HelloControllerTest.java
  kr.dowajwo.springboot.web.HelloControllerTest
+kr/dowajwo/springboot/web/IndexControllerTest.java
+ kr.dowajwo.springboot.web.IndexControllerTest
