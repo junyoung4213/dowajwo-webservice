@@ -6,7 +6,7 @@ branches:
   only:
     - master
 
-# 테스트중
+# 테스트중2
 # Travis CI 서버의 Home
 cache:
   directories:
